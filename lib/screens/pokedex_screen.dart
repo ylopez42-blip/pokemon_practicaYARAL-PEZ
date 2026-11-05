@@ -190,12 +190,10 @@ class _PokedexScreenState extends State<PokedexScreen> {
                 sliver: SliverLayoutBuilder(
                   builder: (context, constraints) {
                     final width = constraints.crossAxisExtent;
-                    final columns = width > 850
+                    final columns = width > 900
                         ? 5
-                        : width > 620
+                        : width > 600
                         ? 4
-                        : width > 390
-                        ? 3
                         : 2;
                     return SliverGrid.builder(
                       itemCount: visiblePokemon.length,

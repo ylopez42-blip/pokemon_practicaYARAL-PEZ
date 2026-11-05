@@ -1,12 +1,11 @@
 {
-    "name": "flutter_application_2",
-    "short_name": "flutter_application_2",
+    "name": "Pokédex | Explora el mundo Pokémon",
+    "short_name": "Pokédex",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
-    "orientation": "portrait-primary",
+    "background_color": "#F3F1E9",
+    "theme_color": "#236B45",
+    "description": "Explora Pokémon, descubre sus datos y sigue sus líneas evolutivas.",
     "prefer_related_applications": false,
     "icons": [
         {
